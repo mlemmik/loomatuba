@@ -687,6 +687,7 @@ body:after {
 }
 
 .sticky-wrapper {
+  top: 0;
   position: absolute;
   z-index: 100;
   width: 100%;
@@ -736,6 +737,7 @@ body:after {
 
 /* Blocks */
 .site-blocks-cover {
+  margin-top: 87px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -761,11 +763,6 @@ body:after {
   bottom: -250px;
   width: 100%;
 }
-.site-blocks-cover,
-.site-blocks-cover > .container > .row {
-  height: calc(100vh);
-  min-height: 600px;
-}
 .site-blocks-cover.inner-page-cover,
 .site-blocks-cover.inner-page-cover > .container > .row {
   min-height: 400px;
@@ -773,7 +770,6 @@ body:after {
 }
 @media (max-width: 991.98px) {
   .site-blocks-cover .intro-text {
-    margin-top: 30%;
   }
 }
 .site-blocks-cover h1 {
